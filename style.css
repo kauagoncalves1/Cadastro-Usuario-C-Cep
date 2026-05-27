@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(33, 37, 41);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgba(20, 25, 70, 0.719);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 5px 6px rgb(15, 10, 36);
+}
+input {
+    width: 100%;
+    border-radius: 11px;
+    padding: 3px;
+    border: none;
+    color: rgb(240, 240, 240);
+    background-color: rgb(50, 50, 56);
+    outline: none;
+}
+label{
+    padding: 4px;
+}
+button {
+    margin-top: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 28, 95);
+    border-radius: 11px;
+    padding: 5px;
+    border: none;
+    cursor: pointer ;
+}
+button:hover{
+    background: rgb(46, 19, 80) ;
+}
+#mensagem-cep {
+    color: rgb(175, 25, 25);
+    font-size: 12px;
+}
+#mensagem-nome {
+    color: rgb(175, 25, 25);
+    font-size: 12px;
+}
+#mensagem-email {
+    color: rgb(175, 25, 25);
+    font-size: 12px;
+}
+#mensagem-senha {
+    color: rgb(175, 25, 25);
+    font-size: 12px;
+}
+#requisitos {
+    font-size: 12px;
+    color: rgb(255, 80, 80);
+    padding-left: 16px;
+}
+#requisitos .valido {
+    color: rgb(80, 200, 80);
+}
+div {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#ver-senha {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 0;
+    position: absolute;
+    right: 8px;
+}
+#mensagem-confirmar-senha {
+    color: rgb(179, 25, 25);
+    font-size: 12px;
+}
+h2 {
+    color: white;
+    margin-bottom: 4px;
+}
+
+p {
+    color: rgb(180, 180, 200);
+    font-size: 13px;
+    margin-bottom: 16px;
+}
